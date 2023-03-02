@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffb7c5;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    /* text-align: center;
+    padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#title {
+    font-size: 60px;
+    color: #3F8F8D;
+    padding: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#start {
+    color:#ffb7c5;
+    background-color: #3F8F8D;
+    border: 3px solid #357b7a;
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.start-link {
+    text-decoration: none;
+    color: #ffb7c5;
+}
+
+.start-link:hover {
+    color: #3F8F8D;
+}
+
+#start:hover {
+    background-color: #ffb7c5;
+    color: #3F8F8D;
+}
+
+footer {
+    text-align: center;
+    color: #3F8F8D;
+    padding: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.rules-title, .rules-container, #play {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.rules-title {
+    font-size: 30px;
+    color: #3F8F8D;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.rules-container {
+    border: 5px solid #3F8F8D;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: #3F8F8D;
+    font-weight: bold;
+}
+
+.R-T {
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+#play {
+    font-size: 30px;
+    background-color:#3F8F8D;
+    border: 3px solid #357b7a;
+    color: #ffb7c5;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+#play:hover {
+    color: #3F8F8D;
+    background-color: #ffb7c5;
+}
+
+.game-link {
+    color: #ffb7c5;
+    text-decoration: none;
+}
+
+.game-link:hover {
+    color: #3F8F8D;
+    background-color: #ffb7c5;
+}
+
+#music {
+    padding: 10px;
+    /* margin-left: 1200px;
+    margin-top: 80px; */
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+}
+
+
+
