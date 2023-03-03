@@ -28,6 +28,26 @@ body {
     font-family: 'Balsamiq Sans', cursive;
 }
 
+@keyframes slideInAnimation {
+    0% {transform: translateX(50vw);
+    }
+    100% {transform: translateX(0vw);
+    }
+}
+
+.slide_in {
+    animation: slideInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInAnimation2 {
+    0% {transform: translateX(-50vw);
+    }
+    100% {transform: translateX(0vw);
+    }
+}
+
 #start {
     color:#ffb7c5;
     background-color: #3F8F8D;
@@ -137,5 +157,61 @@ li {
     right: 0px;
 }
 
+canvas {
+    border: 2px solid black;
+}
 
+#bottom {
+    display: flex;
+    flex: 3;
+}
 
+.hungry, .thirsty, .tired, .happy {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.h-bar, .t-bar, .z-bar, .h2-bar {
+    border: 3px solid #357b7a;
+    border-radius: 25px;
+    width: 300px;
+    height: 20px;
+    margin: 5px;
+}
+
+.button-list {
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.food-btn {
+    margin-left: 30px;
+}
+
+.water {
+    margin-left: 40px;
+}
+
+.other-btn {
+    margin-left: 40px;
+}
+
+button {
+    padding: 10px;
+    border: 3px solid #357b7a;
+    background-color: #3F8F8D;
+    color: #ffb7c5;
+    margin: 10px;
+    font-size: 23px;
+    border-radius: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+button:hover {
+    color: #3F8F8D;
+    background-color: #ffb7c5;
+}
